@@ -1,0 +1,389 @@
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(max-resolution: 144dpi) {}
+
+@media only screen and (max-width: 600px) {}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*Header*/
+
+.logo {
+  display: flex;
+  color: black;
+  font-size: 80px;
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+  margin-left: 70rem;
+  margin-top: 5rem;
+}
+
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 800;
+  width: 65rem;
+  position: absolute;
+  margin-top: -6rem;
+  margin-left: 150rem;
+}
+
+
+.header__img {
+  margin-left: 65rem;
+  position: absolute;
+  margin-top: 2rem;
+}
+
+.image__name {
+  position: absolute;
+  font-size: 150px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  margin-left: 180rem;
+  margin-top: 35rem;
+}
+
+.img__name__description {
+  position: absolute;
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-left: 180rem;
+  margin-top: 60rem;
+}
+
+.header__text {
+  display: block;
+  position: absolute;
+  color: black;
+  font-size: 95px;
+  text-align: center;
+  width: 115rem;
+  margin-top: 110rem;
+  margin-left: 90rem;
+}
+
+/*Hidden Instagram Grid Section*/
+
+.hidden__instagram__grid {
+  display: grid;
+  background-color: rgb(231, 231, 231);
+  color: rgb(45, 45, 45);
+  height: 85rem;
+  width: 160rem;
+  margin-top: 2rem;
+  margin-left: 65rem;
+}
+
+.hidden__instagram__logo {
+  display: block;
+  font-size: 120px;
+  margin-left: 8rem;
+  margin-top: 8rem;
+}
+
+.hidden__instagram__name {
+  display: block;
+  text-align: center;
+  font-size: 200px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  margin-top: -10rem;
+}
+
+.hidden__instagram__description {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 47px;
+  font-weight: 600;
+  margin-top: -20rem;
+}
+
+/*Valley Grid Section*/
+
+.valley {
+  display: grid;
+}
+
+.valley__content {
+  display: block;
+  width: 87rem;
+  margin-top: 80rem;
+  margin-left: 67rem;
+  color: black;
+}
+
+.valley__title {
+  text-transform: uppercase;
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.valley__text {
+  text-align: left;
+  font-size: 70px;
+  margin-top: 3rem;
+  line-height: 1.6;
+}
+
+.valley__img {
+  display: block;
+  margin-left: 105rem;
+  margin-top: -55rem;
+  max-width: fit-content;
+}
+
+/*Real Estate Grid Section*/
+
+.realestate {
+  display: grid;
+}
+
+.realestate__content {
+  display: block;
+  width: 83rem;
+  margin-top: 15rem;
+  margin-left: 67rem;
+  color: black;
+}
+
+.realestate__title {
+  text-transform: uppercase;
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.realestate__text {
+  text-align: left;
+  font-size: 70px;
+  margin-top: 3rem;
+  line-height: 1.6;
+}
+
+/*Real Passion Grid Section*/
+
+.passion {
+  display: grid;
+}
+
+.passion__content {
+  display: block;
+  width: 83rem;
+  margin-top: -65rem;
+  margin-left: 172rem;
+  color: black;
+}
+
+.passion__title {
+  text-transform: uppercase;
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.passion__text {
+  text-align: left;
+  font-size: 70px;
+  margin-top: 4rem;
+  line-height: 1.6;
+}
+
+/*Instagram Section*/
+
+.instagram__tittle {
+  display: block;
+  color: black;
+  text-align: center;
+  font-size: 140px;
+  width: 160rem;
+  margin-top: 20rem;
+  margin-left: 70rem;
+}
+
+.instagram__pictures {
+  display: flex;
+  justify-content: center;
+  padding-left: 12rem;
+  margin-top: 20rem;
+}
+
+
+.left__instagram__img {
+  padding-right: 2rem;
+  width: 25%;
+  height: auto;
+}
+
+.middle__instagram__img {
+  width: 25%;
+  height: auto;
+}
+
+.right__instagram__img {
+  padding-left: 2rem;
+  width: 25%;
+  height: auto;
+}
+
+/*Fill Out Form Section*/
+
+.fill__out__title {
+  display: block;
+  text-align: center;
+  font-size: 130px;
+  width: 160rem;
+  margin-top: 25rem;
+  margin-left: 70rem;
+}
+
+/*Name Form*/
+
+.name__form {
+  display: block;
+  font-size: 50px;
+  margin-top: 20rem;
+  margin-left: 45rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.name__form__content {
+  display: block;
+}
+
+.name__input {
+  margin-top: 5rem;
+  color: black;
+  font-size: 80px;
+  width: 190rem;
+  height: 8rem;
+  padding: 30px;
+  border: solid 5px black;
+}
+
+/*Email Address Form*/
+
+.email__form {
+  display: block;
+  font-size: 50px;
+  margin-top: 4rem;
+  margin-left: 45rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.email__input {
+  margin-top: 5rem;
+  color: black;
+  font-size: 80px;
+  width: 190rem;
+  height: 8rem;
+  padding: 30px;
+}
+
+/*Message Form*/
+
+.message__form {
+  display: block;
+  font-size: 50px;
+  margin-top: 4rem;
+  margin-left: 45rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.message__input {
+  color: black;
+  font-size: 80px;
+  margin-top: 5rem;
+  width: 192rem;
+  height: 35rem;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+/*Button Form*/
+
+.form__btn {
+  display: block;
+  color: white;
+  background: black;
+  text-align: center;
+  font-size: 40px;
+  width: 50rem;
+  border: none;
+  padding: 45px;
+  margin-top: 5rem;
+  margin-left: 45rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/*Footer Section*/
+
+.footer {
+  display: grid;
+}
+
+.footer__title {
+  display: block;
+  width: 45rem;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 20rem;
+  margin-left: 45rem;
+}
+
+.footer__social__icons {
+  display: flex;
+  margin-left: 42rem;
+  margin-top: 5rem;
+  justify-content: space-evenly;
+  width: 35rem;
+}
+
+.footer__icon {
+  text-align: center;
+  margin-top: -13rem;
+}
+
+.main__footer__icon__text {
+  text-align: center;
+  font-size: 120px;
+  margin-top: -2rem;
+}
+
+.second__footer__icon__text {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: -1.5rem;
+  margin-left: 6rem;
+}
+
+.footer__address {
+  font-size: 60px;
+  text-align: right;
+  margin-right: 50rem;
+  margin-top: -15rem;
+  line-height: 1.6;
+}
+
+.footer__copyright {
+  display: block;
+  align-items: center;
+  font-size: 60px;
+  margin-top: 20rem;
+  margin-bottom: 15rem;
+}
